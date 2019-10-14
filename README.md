@@ -23,11 +23,11 @@ Take a look at the example:
 
 - [] Use custom counter
 - [] Style custom counter (there is color, text shadow, larger font size and weight)
-- [] Numbers appear a little out of the box
-- [] Add gradient
-- [] Add a link to the source
-- [] Text color is a shade of gray
-- [] Add headline
+- [x] Numbers appear a little out of the box
+- [x] Add gradient
+- [x] Add a link to the source
+- [x] Text color is a shade of gray
+- [x] Add headline
 
 Take a look at the example:
 ![example](list-example-final.png)

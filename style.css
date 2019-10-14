@@ -19,6 +19,15 @@ body {
   );
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(226, 226, 226);
+}
+
 h1 {
   color: rgba(255, 122, 188, 0.699);
   text-align: center;

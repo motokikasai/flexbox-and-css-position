@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: rgb(165, 39, 117);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(
+    140deg,
+    rgb(126, 23, 95),
+    rgb(255, 1, 44),
+    rgb(255, 102, 0)
+  );
+}
+
+h1 {
+  color: rgba(255, 122, 188, 0.699);
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h3 {
+  color: white;
+  position: absolute;
+  right: 20px;
+  /* bottom: 0; */
+}
+
+main {
+  background: transparent;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  margin: 100px 0;
+}
+ol {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* ol:nth-child(odd) {
+  align-self: flex-end;
+} */
+
+li:nth-child(even) {
+  align-self: flex-end;
+}
+
+li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgb(255, 155, 155); */
+  border-radius: 4px;
+  width: 500px;
+  height: 200px;
+  background: rgb(235, 235, 235);
+  list-style: none;
+  margin: 40px;
+}
+
+li::before {
+  position: absolute;
+  content: attr(data-order);
+  left: -20px;
+  top: -20px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: hotpink;
+  text-shadow: -1px -2px rgb(255, 158, 203), 0 0 10px rgb(255, 13, 126);
+}
+
+/* li:nth-child(odd) {
+  justify-content: flex-end;
+} */

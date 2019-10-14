@@ -21,8 +21,8 @@ Take a look at the example:
 
 ## Extra
 
-- [] Use custom counter
-- [] Style custom counter (there is color, text shadow, larger font size and weight)
+- [x] Use custom counter
+- [x] Style custom counter (there is color, text shadow, larger font size and weight)
 - [x] Numbers appear a little out of the box
 - [x] Add gradient
 - [x] Add a link to the source
